@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://deneb-jekyll.tortoizthemes.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-site_logo: "/assets/images/logo_1.png"
+site_logo: "/assets/images/logo1.PNG"
 copyright: "Copyright &copy; 2020 <span>Deneb</span>. All rights reserved."
 
 permalink: "/:title"
@@ -141,7 +141,7 @@ disqus:
 # Hire us:
 hire_us:
   heading: "Have Any Project in Mind ?"
-  description: "Curabitur libero eros, efficitur sit amet sodales tincidunt, aliquet et leo sed ut nibh feugiat, auctor enim quis."
+  description: "Got a vision? We're here to make it a reality. From mobile apps that mesmerize to websites that wow, our expert team is ready to tackle challenges and create digital masterpieces. Don't hesitate to reach out today and let's discuss how we can transform your ideas into exceptional solutions."
   button:
     link: "/contact/"
     name: "Hire Us"

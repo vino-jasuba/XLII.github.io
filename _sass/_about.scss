@@ -267,6 +267,11 @@
 			@media #{$xs}{
 				margin-bottom: 40px;
 			}
+						h4 {
+							font-weight: bold;
+							font-size: 25px;
+							margin-bottom: 10px;
+						}
 			position: relative;
 			padding: 30px;
 			background-color: $white;

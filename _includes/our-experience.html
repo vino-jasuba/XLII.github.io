@@ -9,29 +9,48 @@
 				</div>
 			</div>
 		</div>
-		{% for list in page.work_experience.list %}
-		<div class="single_experience">
-			<div class="row align-items-center">
-				<div class="col-lg-5 col-md-5">
-					<div class="deneb_text_box">
-						<p>{{ list.text }}</p>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-2">
-					<div class="icon text-center">
-						<h3>{{ list.name }}</h3>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-5">
-					<div class="deneb_info_box">
-						<h4>{{ list.position }}</h4>
-						<h5>{{ list.name2 }}</h5>
-						<h6>{{ list.duration }}</h6>
-					</div>
+	{% for list in page.work_experience.list %}
+	<div class="single_experience">
+		<div class="row align-items-center">
+			{% assign mod = forloop.index | modulo: 2 %}
+			{% if mod == 0 %}
+			<!-- Even items: Reorder divs (1-based index, so check for 1 modulo 2) -->
+			<div class="col-lg-5 col-md-5">
+				
+			</div>
+			<div class="col-lg-2 col-md-2">
+				<div class="icon text-center">
+					<h3>{{ list.name2 }}</h3>
 				</div>
 			</div>
+			<div class="col-lg-5 col-md-5">
+				<div class="deneb_text_box">
+					<h4>{{ list.name }}</h4>
+					<p>{{ list.text }}</p>
+					
+				</div>
+			</div>
+			
+			{% else %}
+			<!-- Odd items: Original order -->
+			<div class="col-lg-5 col-md-5">
+				<div class="deneb_text_box">
+					<h4>{{ list.name }}</h4>
+					<p>{{ list.text }}</p>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-2">
+				<div class="icon text-center">
+					<h3>{{ list.name2 }}</h3>
+				</div>
+			</div>
+			
+			{% endif %}
 		</div>
-		{% endfor %}
+	</div>
+	{% endfor %}
+
+
 	</div>
 </section>
 <!-- End deneb_experience section -->
