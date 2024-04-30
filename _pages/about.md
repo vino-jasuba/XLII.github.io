@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /about/
-page_header_image: "/assets/images/page_header.jpg"
+page_header_image: "/assets/images/page_header_2.jpg"
 title: "About Us"
 
 # About
