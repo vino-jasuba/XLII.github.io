@@ -22,7 +22,7 @@ about:
   heading: "Why You Hire Us?"
   text: "Looking for tailored solutions crafted by seasoned pros? Choose us and benefit from a partnership where innovation, expertise, and personalized attention converge to create your ideal website. We're not just developers; we're problem solvers dedicated to your success."
   text2: "Each project we undertake is fueled by a commitment to excellence and driven by a desire to innovate. With our lean, expert-driven team, you'll see efficiency in execution and creativity in every solution, ensuring that your website not only meets but exceeds your expectations. Trust us to deliver a product that sets you apart in the digital landscape, enhancing both user engagement and your brand's online presence."
-  image: "/assets/images/ab2.png"
+  image: "/assets/images/ab3.png"
   button:
     name: "Read More"
     link: "/about"
