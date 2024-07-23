@@ -1,13 +1,12 @@
 title: "4t2 - A Digital Agency"
 email: "thefourty2@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  4t2 is a digital agency that specializes in creating custom web and mobile applications. We are a team of designers, developers, and strategists who are passionate about helping our clients achieve their goals. Whether you need a new website, a mobile app, or a digital marketing strategy, we have the skills and experience to bring your vision to life.
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: thefourty2
+github_username:  thefourty2
 site_logo: "/assets/images/logo_V1.svg"
 copyright: "Copyright &copy; 2024 <span>4t2</span>. All rights reserved."
 
@@ -20,8 +19,8 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
 
-facebook_url: "https://www.facebook.com/tortoiztheme"
-twitter_url: "https://twitter.com/tortoizthemes"
+facebook_url: "https://www.facebook.com/"
+twitter_url: "https://twitter.com/"
 instagram_url: "https://instagram.com/"
 
 hero_image: "/assets/images/breadcrumb_bg.jpg"
