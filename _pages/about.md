@@ -84,7 +84,7 @@ I have accrued various skills in my 6+ years of experience from Backend developm
     - name: "Vincent Omondi"
       position: "Backend Developer"
       image: "/assets/images/omondi.jpg"
-      text: "Another one of those nutcases that love PHP 😎. A huge fan of Laravel and has used it for almost 7 years now."
+      text: "Another one of those nutcases that love PHP 😎. A huge fan of Laravel and has used it for nearly a decade now."
 
 # Latest Blog Post
 latest_blog_post:
